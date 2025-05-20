@@ -103,18 +103,12 @@ const Login: React.FC = () => {
           </CardContent>
         </form>
         
-        <CardFooter className="flex flex-col space-y-4">
+        <CardFooter className="flex flex-col">
           <div className="text-sm text-muted-foreground text-center mt-2">
             Don't have an account?{' '}
             <Link to="/register" className="text-primary font-semibold hover:underline">
               Sign up
             </Link>
-          </div>
-          
-          {/* Demo account info */}
-          <div className="text-xs text-center text-muted-foreground border-t pt-4">
-            <p>Demo account:</p>
-            <p>Email: user@example.com | Password: password123</p>
           </div>
         </CardFooter>
       </Card>
