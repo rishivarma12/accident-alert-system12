@@ -39,7 +39,7 @@ const Login: React.FC = () => {
           <div className="w-12 h-12 mb-2 bg-primary rounded-full flex items-center justify-center">
             <MapPin className="h-6 w-6 text-white" />
           </div>
-          <CardTitle className="text-2xl font-bold">RideSafe Together</CardTitle>
+          <CardTitle className="text-2xl font-bold">Accident Alert System</CardTitle>
           <CardDescription>
             Login to your account to get started
           </CardDescription>
