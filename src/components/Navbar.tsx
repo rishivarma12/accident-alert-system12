@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
             <div className="pulse-ring"></div>
             <Map className="h-8 w-8 text-primary relative z-10" />
           </div>
-          <h1 className="text-xl font-bold text-primary">RideSafeTogether</h1>
+          <h1 className="text-xl font-bold text-primary">Accident Alert System</h1>
         </div>
         
         <nav className="hidden md:flex items-center gap-6">
