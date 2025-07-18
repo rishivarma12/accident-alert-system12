@@ -48,7 +48,7 @@ const Register: React.FC = () => {
           </div>
           <CardTitle className="text-2xl font-bold">Create an Account</CardTitle>
           <CardDescription>
-            Sign up for RideSafe Together
+            Sign up for Accident Alert System
           </CardDescription>
         </CardHeader>
         

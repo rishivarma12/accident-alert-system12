@@ -31,7 +31,9 @@ const Navbar: React.FC = () => {
             <div className="pulse-ring"></div>
             <Map className="h-8 w-8 text-primary relative z-10" />
           </div>
-          <h1 className="text-xl font-bold text-primary">Accident Alert System</h1>
+          <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
+            Accident Alert System
+          </Link>
         </div>
         
         <nav className="hidden md:flex items-center gap-6">
